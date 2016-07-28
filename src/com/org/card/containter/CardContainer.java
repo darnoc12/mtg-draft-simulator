@@ -14,10 +14,6 @@ public abstract class CardContainer {
         this.cardList = cardList;
     }
 
-    public abstract CardContainer fromList(List<Card> cardList);
-
-    public abstract CardContainer fromContainer(CardContainer container);
-
     public void shuffle() {
         Random rand = new Random();
         int deckSize = cardList.size();

@@ -10,18 +10,10 @@ public class CardPack extends CardContainer {
         super(cardList);
     }
 
-    @Override
-    public CardContainer fromList(List<Card> cardList) {
+    public static CardPack fromList(List<Card> cardList) {
         if (cardList.size() > 15) {
             throw new IllegalArgumentException("Cannot have a card pack with greater than 15 cards");
         }
         return new CardPack(cardList);
     }
-
-    @Override
-    public CardContainer fromContainer(CardContainer container) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
 }
