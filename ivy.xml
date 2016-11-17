@@ -26,4 +26,5 @@
 	</info>
 	<dependency org="org.apache.commons" name="commons-lang3" rev="3.0"/>
 	<dependency org="junit" name="junit" rev="4.12"/>
+	<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.21"/>
 </ivy-module>

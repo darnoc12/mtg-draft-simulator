@@ -7,8 +7,10 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.org.card.CastingCost.CardColors;
-import static com.org.card.CastingCost.CardColors.*;
+import com.mtg.card.CastingCost;
+import com.mtg.card.CastingCost.CardColors;
+
+import static com.mtg.card.CastingCost.CardColors.*;
 import static org.junit.Assert.assertTrue;
 public class UnitTestCastingCost {
 
