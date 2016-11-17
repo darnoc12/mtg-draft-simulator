@@ -1,9 +1,9 @@
-package com.org.card;
+package com.mtg.card;
 
 import java.util.LinkedList;
 import java.util.Optional;
 
-import com.org.card.CastingCost.CardColors;
+import com.mtg.card.CastingCost.CardColors;
 
 public class Card {
     private final String name;

@@ -1,4 +1,4 @@
-package com.org.card;
+package com.mtg.card;
 
 public class CombatStats {
     private int power;
