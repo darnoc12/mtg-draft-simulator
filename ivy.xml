@@ -27,4 +27,6 @@
 	<dependency org="org.apache.commons" name="commons-lang3" rev="3.0"/>
 	<dependency org="junit" name="junit" rev="4.12"/>
 	<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.21"/>
+	<dependency org="com.google.code.gson" name="gson" rev="2.2.4"/>
+    <dependency org="com.google.guava" name="guava" rev="20.0"/>
 </ivy-module>
